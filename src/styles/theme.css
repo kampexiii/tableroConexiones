@@ -1,0 +1,12 @@
+/* Variables de entorno y paleta de colores corporativa para Implemental Systems. */
+:root {
+  /* Paleta corporativa */
+  --fondo-inicio: #f2f2f2;
+  --fondo-fin: #ffffff;
+  --acento: #e30613;
+  --acento-suave: #f7bfc4;
+  --panel: #ffffff;
+  --texto: #111111;
+  --sombra: 0 12px 32px rgba(17, 17, 17, 0.08);
+  color-scheme: light;
+}

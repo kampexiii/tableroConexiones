@@ -1,0 +1,61 @@
+/* Estilos globales y utilidades personalizadas. Compatibilidad con Tailwind v4. */
+@import "tailwindcss";
+@import "./theme.css";
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: "Manrope", "Segoe UI", sans-serif;
+  color: var(--texto);
+  /* Definimos un fondo suave con gradientes radiales para mejorar la estética visual. */
+  background:
+    radial-gradient(circle at 18% 18%, rgba(227, 6, 19, 0.05), transparent 32%),
+    radial-gradient(circle at 82% 0%, rgba(227, 6, 19, 0.04), transparent 28%),
+    linear-gradient(180deg, var(--fondo-inicio), var(--fondo-fin));
+  background-attachment: fixed;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+/* Clases de componentes personalizados para botones y paneles. */
+.panel-suave {
+  background: var(--panel);
+  box-shadow: var(--sombra);
+  border: 1px solid rgba(17, 17, 17, 0.05);
+}
+
+.boton-principal {
+  background: linear-gradient(120deg, var(--acento), #ff4253);
+  color: #ffffff;
+}
+
+.boton-principal:hover {
+  filter: brightness(1.03);
+}
+
+.boton-fantasma {
+  color: var(--texto);
+  border: 1px dashed rgba(227, 6, 19, 0.5);
+}
+
+.sombra-tarjeta {
+  box-shadow: 0 8px 24px rgba(17, 17, 17, 0.08);
+}
+
+.entrada-suave {
+  background: rgba(255, 255, 255, 0.7);
+  border: 1px solid rgba(227, 6, 19, 0.16);
+}
+
+.overlay-lineas {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}

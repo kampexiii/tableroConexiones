@@ -35,3 +35,5 @@ Desarrollado como parte de una prueba técnica, el sitio sigue una estética pro
 - **Lógica de Conexión 1-a-1**: Cada tarjeta puede tener un único vínculo activo, garantizando una visualización limpia y ordenada.
 - **Cálculo de trayectorias en tiempo real**: Las líneas se recalculan automáticamente al redimensionar la ventana o modificar el contenido.
 - **Estado Normalizado**: Uso eficiente de la memoria y el renderizado mediante una estructura de datos plana en el estado principal.
+
+# tableroConexiones

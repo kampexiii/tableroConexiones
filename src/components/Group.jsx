@@ -1,6 +1,6 @@
-// Componente que agrupa varias tarjetas dentro de una columna.
-// Ofrece la interfaz para añadir nuevas tarjetas mediante un formulario.
-
+// Componente que representa un grupo dentro de una columna del tablero de conexiones.
+// Permite crear nuevas tarjetas dentro de él mediante un pequeño formulario.
+// Recibe las tarjetas vinculadas a este grupo para renderizarlas debajo.
 import { useState } from 'react'
 import Card from './Card'
 

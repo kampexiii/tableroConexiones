@@ -1,5 +1,4 @@
 // Componente raíz de la aplicación que establece la estructura general.
-// Renderiza el encabezado con el logo y el tablero principal (Board).
 
 import Board from './components/Board'
 import logo from './assets/img/logo.svg'
